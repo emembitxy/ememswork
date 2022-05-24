@@ -9,9 +9,6 @@ main{
 }
 
 
-
-
-
 #page-1{
 	background-color:red;
 	border-radius:100%;
@@ -44,7 +41,6 @@ p{
 	height:80px;
 	text-align:center;
 	color:white;
-
 }
 .p1{
 	padding-top:1em;
@@ -52,3 +48,52 @@ p{
 .page-2{
 	padding-bottom:300px;
 }
+#fixed{
+
+	background-color:yellow;
+	width:300px;
+	height:300px;
+	text-align:center;
+	padding:30px;
+	position:fixed;
+	top:0;
+	right:0;
+}
+#relative{
+	background-color:yellow;
+	width:300px;
+	height:300px;
+	text-align:center;
+	padding:30px;
+	position:relative;
+
+}
+#absolute{
+	background-color:yellow;
+	width:300px;
+	height:300px;
+	text-align:center;
+	padding:30px;
+}
+#sticky{
+	background-color:yellow;
+	width:300px;
+	height:300px;
+	text-align:center;
+	padding:30px;
+}
+a:visited{
+	background-color:black;
+	color:white;
+}
+a:hover{
+	border-radius:30cm;
+	background-color:purple;
+	transition:all 1000ms
+}
+
+
+
+
+
+
